@@ -20,7 +20,7 @@ import RRR from './movies/Rrr';
 import Beast from './movies/Beast';
 import Bhoolbhulaiyaa2 from './movies/Bhoolbhulaiyaa2';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Routes
 }from 'react-router-dom'
