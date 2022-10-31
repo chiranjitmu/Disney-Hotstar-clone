@@ -1,0 +1,30 @@
+.search__menu > input{
+ display: flex;
+ align-items: center;
+ color: black;
+ margin-left: 410px;
+ margin-top: 20px;
+ width: 500px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 200px;
+ border-radius: 10px;
+ border: transparent;
+}
+
+
+
+.searchicon{
+  display: flex;
+  align-items: center;
+  margin-left: 640px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.searchicon :hover{
+  color: aqua;
+}
+

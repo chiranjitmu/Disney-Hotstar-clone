@@ -1,0 +1,62 @@
+.viewers{
+    margin-top: 4px;
+    padding: 30px 0px 26px;
+}   
+
+.viewers :hover{
+    border-color: aqua;
+    transform: scale(1.05);
+    box-shadow: rgba(0 0 0)  0px 40px 58px -16px;
+}
+
+.viewers > container {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    gap: 4rem
+}
+
+.view_1{
+    width: 13rem;
+    height: 7rem;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.view_2{
+    width: 13rem;
+    height: 7rem;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.view_3{
+    width: 13rem;
+    height: 7rem;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.view_4{
+    width: 13rem;
+    height: 7rem;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.view_5{
+    width: 13rem;
+    height: 7rem;
+    border: 3px solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+}
