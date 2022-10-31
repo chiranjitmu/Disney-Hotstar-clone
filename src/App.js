@@ -46,7 +46,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/Disney-hotstar-clone">
         <Header />
         <Routes>
         <Route path='/movies/Radheshyam' element={<Radheshyam/>}/>
