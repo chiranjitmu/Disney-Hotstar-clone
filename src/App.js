@@ -49,30 +49,30 @@ function App() {
       <Router>
         <Header />
         <Routes>
-        <Route path='/movies/Radheshyam' element={<Radheshyam/>}/>
-        <Route path='/movies/James' element={<James/>}/>
-        <Route path='/movies/Kantara' element={<Kantara/>}/>
-        <Route path='/movies/Eightthree' element={<Eightthree/>}/>
+        <Route path='/movies/radheshyam' element={<Radheshyam/>}/>
+        <Route path='/movies/james' element={<James/>}/>
+        <Route path='/movies/kantara' element={<Kantara/>}/>
+        <Route path='/movies/eightthree' element={<Eightthree/>}/>
         <Route path='/movies/bachchhanpaandey' element={<Bachchhanpaandey/>}/>
-        <Route path='/movies/Pushpa' element={<Pushpa/>}/>
-        <Route path='/movies/Runway34' element={<Runway34/>}/>
-        <Route path='/movies/KGF2' element={<Kgf2/>}/>
-        <Route path='/movies/RRR' element={<RRR/>}/>
-        <Route path='/movies/Beast' element={<Beast/>}/>
-        <Route path='/movies/Bhoolbhulaiyaa2' element={<Bhoolbhulaiyaa2/>}/>
+        <Route path='/movies/pushpa' element={<Pushpa/>}/>
+        <Route path='/movies/runway34' element={<Runway34/>}/>
+        <Route path='/movies/kgf2' element={<Kgf2/>}/>
+        <Route path='/movies/rrr' element={<RRR/>}/>
+        <Route path='/movies/beast' element={<Beast/>}/>
+        <Route path='/movies/bhoolbhulaiyaa2' element={<Bhoolbhulaiyaa2/>}/>
 
 
 
 
 
           <Route path='/' element={<Home/>}/>
-          <Route path='/ALLMOVIES' element={<Movies/>}/>
-          <Route path='/SEARCHMOVIES' element={<Search/>}/>
-          <Route path='/Recommends' element={<Recommends/>}/>
-          <Route path='/Hindi' element={<Hindimovie/>}/>
-          <Route path='/Kannada' element={<Kannadamovie/>}/> 
-          <Route path='/movies/Hindi' element={<Hindimovie/>}/> 
-          <Route path='/movies/Kannada' element={<Kannadamovie/>}/> 
+          <Route path='/allmovies' element={<Movies/>}/>
+          <Route path='/searchmovies' element={<Search/>}/>
+          <Route path='/recommends' element={<Recommends/>}/>
+          <Route path='/hindi' element={<Hindimovie/>}/>
+          <Route path='/kannada' element={<Kannadamovie/>}/> 
+          <Route path='/movies/hindi' element={<Hindimovie/>}/> 
+          <Route path='/movies/kannada' element={<Kannadamovie/>}/> 
         </Routes>
        </Router>
     </div>

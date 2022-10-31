@@ -18,7 +18,7 @@ function Header() {
 
            <div className='header__search'>
                  <AiOutlineSearch />
-                 <a href='/SEARCHMOVIES'>
+                 <a href='/searchmovies'>
                  <button>SEARCH</button></a>
           </div>      
 
@@ -36,7 +36,7 @@ function Header() {
 
           <div className='header__movies'>
                <RiMovie2Fill />
-               <a href='/ALLMOVIES'>
+               <a href='/allmovies'>
                <button>MOVIES</button></a>
           </div>
 

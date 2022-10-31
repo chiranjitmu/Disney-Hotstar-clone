@@ -19,7 +19,7 @@ function Homemovies() {
              <img className='recommended_img' src={list.img} alt=''></img></a>
              </div> 
            )}
-          <a href='./Recommends'>
+          <a href='./recommends'>
             <AiOutlineArrowRight className='arrowright'/></a>
           </container>
 
@@ -34,7 +34,7 @@ function Homemovies() {
              <img className='hindi_img' src={list.img} alt=''></img></a>
              </div> 
            )}
-          <a href='./Hindi'>
+          <a href='./hindi'>
             <AiOutlineArrowRight className='arrowright'/></a>
           </container>
 
