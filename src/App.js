@@ -46,7 +46,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/disney-hotstar-clone'>
         <Header />
         <Routes>
         <Route path='/movies/radheshyam' element={<Radheshyam/>}/>
