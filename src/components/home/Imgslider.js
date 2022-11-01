@@ -41,22 +41,10 @@ export default Imgslider
 
 
 const Carousel = styled(Slider)`
-     margin-top: 4px;
-     margin-bottom: 1px;
-     margin-left: 5px;
-     margin-right: 5px;
-
-     ul li button{
-
-         &:before{
-             font-size: 10px;
-             color: aqua;
-         }
-     }
-
-     li.slick-active button::before{
-        color: white;
-     }
+//  margin-top: 4px;
+//  margin-bottom: 1px;
+//  margin-left: 5px;
+//  margin-right: 5px;
 
 `
 
@@ -65,14 +53,14 @@ const Wrap = styled.div`
     cursor: pointer;
 
     img{
-        width: 100%;
-        height: 300px;
-        border-radius: 20px;
-        border: 4px solid tranparent;
+        width: 100vw;
+        height: 25vw;
+        border-radius: 0.5rem;
+        border: 0.4rem solid tranparent;
         transition-duration: 300ms;
 
         &:hover{
-            border: 4px solid rgba(249, 249, 249, 0.8);
+            border: 0.2rem solid rgba(249, 249, 249, 0.8);
             
         }
 

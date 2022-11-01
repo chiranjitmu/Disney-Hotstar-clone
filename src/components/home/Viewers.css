@@ -1,15 +1,22 @@
-.viewers{
-    margin-top: 4px;
+@media only screen and (max-width: 980px){
+   .main_viewers{
+     display: none;
+    }
+}
+
+
+.main_viewers{
+    margin-top: 0.4rem;
     padding: 30px 0px 26px;
 }   
 
-.viewers :hover{
+.main_viewers :hover{
     border-color: aqua;
     transform: scale(1.05);
     box-shadow: rgba(0 0 0)  0px 40px 58px -16px;
 }
 
-.viewers > container {
+.main_viewers > container {
     display: flex;
     align-items: center;
     margin-left: 3rem;

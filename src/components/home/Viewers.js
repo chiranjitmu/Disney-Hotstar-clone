@@ -4,7 +4,7 @@ import HoverVideoPlayer from 'react-hover-video-player';
 
 function Viewers() {
   return (
-      <div className='viewers'>
+      <div className='main_viewers'>
         <container>
 
              

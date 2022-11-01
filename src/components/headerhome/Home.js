@@ -9,7 +9,9 @@ function Home() {
   return (
         <div className='home'>
            <container>
+              <div className='imgslider'>
               <Imgslider />
+             </div>
               <Viewers />
               <Recommended />
            </container>

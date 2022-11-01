@@ -10,40 +10,44 @@ function Header() {
                  
      <img src="Disneyplus.webp" alt=""></img>
 
+     <div className='header_list'>
+
           <div className='header__home'>
                  <AiFillHome />
                  <a href='/'>
-                 <button>HOME</button></a>
+                 <button className='header_buttons'>HOME</button></a>
           </div>   
 
            <div className='header__search'>
                  <AiOutlineSearch />
                  <a href='/searchmovies'>
-                 <button>SEARCH</button></a>
+                 <button className='header_buttons'>SEARCH</button></a>
           </div>      
 
           <div className='header__watchlist'>
                  <AiOutlinePlus />
                  <a href='/'>
-                 <button>WATCHLIST</button></a>
+                 <button className='header_buttons'>WATCHLIST</button></a>
           </div>      
 
           <div className='header__originals'>
                <AiFillStar />
                <a href='/'>
-               <button>ORIGINALS</button></a>
+               <button className='header_buttons'>ORIGINALS</button></a>
           </div>
 
           <div className='header__movies'>
                <RiMovie2Fill />
                <a href='/allmovies'>
-               <button>MOVIES</button></a>
+               <button className='header_buttons'>MOVIES</button></a>
           </div>
 
           <div className='header__series'>
                <RiGitRepositoryPrivateLine />
                <a href='/'>
-               <button>SERIES</button></a>
+               <button className='header_buttons'>SERIES</button></a>
+          </div>
+
           </div>
              
           <div className='header__user'>

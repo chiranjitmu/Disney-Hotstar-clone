@@ -3,7 +3,6 @@ import Header from './components/header/Header';
 import Home from './components/headerhome/Home';
 import Search from './components/headersearch/Search';
 import Movies from './components/headermovie/Movies';
-import Disclaimer from './components/home/Disclaimer'
 // movies container
 import Recommends from './components/home/homemovies/moviespages/Recommends';
 import Hindimovie from './components/home/homemovies/moviespages/Hindi';
@@ -46,8 +45,7 @@ import {
 
 function App() {
   return (
-    <div>
-    <div className="App">
+      <div className='App'>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -77,8 +75,6 @@ function App() {
           <Route path='/movies/kannada' element={<Kannadamovie/>}/> 
         </Routes>
        </BrowserRouter>
-    </div>
-        <Disclaimer />
     </div>
   )
 }
