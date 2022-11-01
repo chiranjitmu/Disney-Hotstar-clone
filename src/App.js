@@ -21,7 +21,7 @@ import RRR from './movies/Rrr';
 import Beast from './movies/Beast';
 import Bhoolbhulaiyaa2 from './movies/Bhoolbhulaiyaa2';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Routes
 }from 'react-router-dom'
@@ -48,7 +48,7 @@ function App() {
   return (
     <div>
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Header />
         <Routes>
         <Route path='/movies/radheshyam' element={<Radheshyam/>}/>
@@ -76,7 +76,7 @@ function App() {
           <Route path='/movies/hindi' element={<Hindimovie/>}/> 
           <Route path='/movies/kannada' element={<Kannadamovie/>}/> 
         </Routes>
-       </Router>
+       </BrowserRouter>
     </div>
         <Disclaimer />
     </div>
