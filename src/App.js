@@ -48,7 +48,7 @@ function App() {
   return (
     <div>
     <div className="App">
-      <BrowserRouter basename='/disney-hotstar-clone'>
+      <BrowserRouter>
         <Header />
         <Routes>
         <Route path='/movies/radheshyam' element={<Radheshyam/>}/>
@@ -67,7 +67,7 @@ function App() {
 
 
 
-          <Route path='/disney-hotstar-clone' element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='/allmovies' element={<Movies/>}/>
           <Route path='/searchmovies' element={<Search/>}/>
           <Route path='/recommends' element={<Recommends/>}/>
