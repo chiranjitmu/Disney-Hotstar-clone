@@ -80,7 +80,7 @@ function App() {
     </div>
         <Disclaimer />
     </div>
-  );
+  )
 }
 
 export default App;
