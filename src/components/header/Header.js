@@ -10,7 +10,7 @@ function Header() {
                  
      <img src="Disneyplus.webp" alt=""></img>
 
-     <div className='header_list'>
+     {/* <div className='header_list'> */}
 
           <div className='header__home'>
                  <AiFillHome />
@@ -47,13 +47,13 @@ function Header() {
                <a href='/'>
                <button className='header_buttons'>SERIES</button></a>
           </div>
-
-          </div>
-             
           <div className='header__user'>
                <img src='images.jpg' alt=''></img>
                <span>DARKSOUL</span>
           </div>  
+          {/* </div> */}
+             
+        
 
            </div>
    </div>
