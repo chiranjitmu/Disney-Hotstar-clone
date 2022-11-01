@@ -48,7 +48,7 @@ function App() {
   return (
     <div>
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/disney-hotstar-clone'>
         <Header />
         <Routes>
         <Route path='/movies/radheshyam' element={<Radheshyam/>}/>
