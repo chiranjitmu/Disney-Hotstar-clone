@@ -1,3 +1,19 @@
 *{
     box-sizing: border-box;
 }
+.text{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 600px){
+    .App{
+        display: none;
+    }
+    .text{
+        display: block;
+    }
+}

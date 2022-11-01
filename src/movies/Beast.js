@@ -1,5 +1,3 @@
-// import React, { useEffect, useState } from 'react'
-// import db from 'firebase/firestore';
 import ReactPlayer from 'react-player'
 
 
@@ -7,22 +5,9 @@ import ReactPlayer from 'react-player'
 const BEAST = () => {
 
 
-//   const [abcd, setAbcd] = useState([]);
-
-//   useEffect(() => {
-
-//     db.collection('abcd').onSnapshot(snapshot =>
-//       (setAbcd(snapshot.docs.map(doc => doc.data()))
-     
-//       ))
-  
-//     }, [])
-
-
 
       return (
         <div className='player-wrapper' style={{width: '100vw', height: '40vw'}}>
-          {/* {abcd.map(({video}) => ( */}
               <ReactPlayer
               className='react-player'
               url= 'https://youtu.be/0q7bKjLa0Nc'

@@ -16,19 +16,3 @@
     z-index: -1;
 }
 
-.text{
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    font-size: 1.4rem;
-}
-
-@media only screen and (max-width: 600px){
-    .home{
-        display: none;
-    }
-    .text{
-        display: block;
-    }
-}

@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Home from './components/headerhome/Home';
 import Search from './components/headersearch/Search';
 import Movies from './components/headermovie/Movies';
+import Disclaimer from './components/home/Disclaimer'
 // movies container
 import Recommends from './components/home/homemovies/moviespages/Recommends';
 import Hindimovie from './components/home/homemovies/moviespages/Hindi';
@@ -45,8 +46,9 @@ import {
 
 function App() {
   return (
+    <div>
     <div className="App">
-      <Router basename='/disney-hotstar-clone'>
+      <Router>
         <Header />
         <Routes>
         <Route path='/movies/radheshyam' element={<Radheshyam/>}/>
@@ -65,7 +67,7 @@ function App() {
 
 
 
-          <Route path='/disney-hotstar-clone' element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='/allmovies' element={<Movies/>}/>
           <Route path='/searchmovies' element={<Search/>}/>
           <Route path='/recommends' element={<Recommends/>}/>
@@ -75,6 +77,8 @@ function App() {
           <Route path='/movies/kannada' element={<Kannadamovie/>}/> 
         </Routes>
        </Router>
+    </div>
+        <Disclaimer />
     </div>
   );
 }
