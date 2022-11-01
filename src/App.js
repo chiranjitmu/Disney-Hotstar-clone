@@ -67,7 +67,7 @@ function App() {
 
 
 
-          <Route path='/' element={<Home/>}/>
+          <Route path='/disney-hotstar-clone' element={<Home/>}/>
           <Route path='/allmovies' element={<Movies/>}/>
           <Route path='/searchmovies' element={<Search/>}/>
           <Route path='/recommends' element={<Recommends/>}/>
