@@ -26,6 +26,11 @@
 .recommended_only{
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
+}
+
+.recommended_only::-webkit-scrollbar{
+    display: none;
 }
 
 .Recommended_word{
@@ -59,6 +64,11 @@
 .hindi_only{
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
+}
+
+.hindi_only::-webkit-scrollbar{
+    display: none;
 }
 
 .hindi_word{
@@ -92,6 +102,11 @@
 .kannada_only{
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
+}
+
+.kannada_only::-webkit-scrollbar{
+    display: none;
 }
 
 .kannada_word{

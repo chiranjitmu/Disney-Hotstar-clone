@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css';
 import Imgslider from '../home/Imgslider';
 import Viewers from '../home/Viewers';
-import Recommended from '../home/homemovies/Homemovies';
+import Homemovies from '../home/homemovies/Homemovies';
 
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
               <Imgslider />
              </div>
               <Viewers />
-              <Recommended />
+              <Homemovies />
            </container>
         </div>
   )

@@ -9,53 +9,53 @@ function Header() {
     <div className='header'>
                  
      <img src="Disneyplus.webp" alt=""></img>
+     <span className='hotstar_logo_name'>hotstar</span>
+     <span className='subscribe_button'>SUBSCRIBE</span>
 
-     {/* <div className='header_list'> */}
 
           <div className='header__home'>
-                 <AiFillHome />
+                 <AiFillHome className='home_icon'/>
                  <a href='/'>
                  <button className='header_buttons'>HOME</button></a>
           </div>   
 
            <div className='header__search'>
-                 <AiOutlineSearch />
+                 <a href='/searchmovies' className='search_icon'>
+                 <AiOutlineSearch /></a>
                  <a href='/searchmovies'>
                  <button className='header_buttons'>SEARCH</button></a>
-          </div>      
-
+          </div>   
+          
           <div className='header__watchlist'>
-                 <AiOutlinePlus />
+                 <AiOutlinePlus className='watchlist_icon'/>
                  <a href='/'>
                  <button className='header_buttons'>WATCHLIST</button></a>
           </div>      
 
           <div className='header__originals'>
-               <AiFillStar />
+               <AiFillStar className='originals_icon'/>
                <a href='/'>
                <button className='header_buttons'>ORIGINALS</button></a>
           </div>
 
           <div className='header__movies'>
-               <RiMovie2Fill />
+               <RiMovie2Fill className='movies_icon'/>
                <a href='/allmovies'>
                <button className='header_buttons'>MOVIES</button></a>
           </div>
 
           <div className='header__series'>
-               <RiGitRepositoryPrivateLine />
+               <RiGitRepositoryPrivateLine className='series_icon'/>
                <a href='/'>
                <button className='header_buttons'>SERIES</button></a>
           </div>
           <div className='header__user'>
-               <img src='images.jpg' alt=''></img>
-               <span>DARKSOUL</span>
+               <img src='images.jpg' alt=''className='user_img'></img>
+               <span className='user_name'>DARKSOUL</span>
           </div>  
-          {/* </div> */}
-             
-        
 
            </div>
+         
    </div>
   )
 }
