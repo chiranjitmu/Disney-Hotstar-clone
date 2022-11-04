@@ -27,5 +27,9 @@
 .hindis_only{
    display: flex;
    flex-direction: row;
+   overflow-x: auto;
 }
 
+.hindis_only::-webkit-scrollbar{
+   display: none;
+}

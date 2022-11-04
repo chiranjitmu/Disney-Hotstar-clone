@@ -1,3 +1,10 @@
+@media only screen and (max-width: 980px){
+  .search__menu{
+    position: relative;
+    right: 10rem;
+  }
+}
+
 .search__menu > input{
  display: flex;
  align-items: center;

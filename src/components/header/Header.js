@@ -7,14 +7,16 @@ function Header() {
   return (
      <div className='main_header'>
     <div className='header'>
-                 
-     <img src="Disneyplus.webp" alt=""></img>
-     <span className='hotstar_logo_name'>hotstar</span>
+
+            
+     <a href='/'> <img src="Disneyplus.webp" alt=""></img></a> 
+     <span className='hotstar_logo_name'><a href='/' className='hotstar_logo_tag'>hotstar</a></span>
      <span className='subscribe_button'>SUBSCRIBE</span>
 
 
           <div className='header__home'>
-                 <AiFillHome className='home_icon'/>
+                 <a href='/' className='home_icon'>
+                 <AiFillHome /></a>
                  <a href='/'>
                  <button className='header_buttons'>HOME</button></a>
           </div>   
@@ -27,25 +29,29 @@ function Header() {
           </div>   
           
           <div className='header__watchlist'>
-                 <AiOutlinePlus className='watchlist_icon'/>
+                 <a href='/' className='watchlist_icon'>
+                 <AiOutlinePlus /></a>
                  <a href='/'>
                  <button className='header_buttons'>WATCHLIST</button></a>
           </div>      
 
           <div className='header__originals'>
-               <AiFillStar className='originals_icon'/>
+               <a href='/' className='originals_icon'>
+               <AiFillStar /></a>
                <a href='/'>
                <button className='header_buttons'>ORIGINALS</button></a>
           </div>
 
           <div className='header__movies'>
-               <RiMovie2Fill className='movies_icon'/>
+               <a href='/allmovies' className='movies_icon'>
+               <RiMovie2Fill /></a>
                <a href='/allmovies'>
                <button className='header_buttons'>MOVIES</button></a>
           </div>
 
           <div className='header__series'>
-               <RiGitRepositoryPrivateLine className='series_icon'/>
+               <a href='/' className='series_icon'>
+               <RiGitRepositoryPrivateLine /></a>
                <a href='/'>
                <button className='header_buttons'>SERIES</button></a>
           </div>

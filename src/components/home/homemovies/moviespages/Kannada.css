@@ -27,6 +27,11 @@
  .kannadas_only{
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
  }
  
+ 
+.kannada_only::-webkit-scrollbar{
+   display: none;
+}
  

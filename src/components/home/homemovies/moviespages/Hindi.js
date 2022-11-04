@@ -14,7 +14,7 @@ function Hindimovie() {
          {One.map((list) => 
             <div className='hindis_list'>  
                 <a href={list.movie}>
-                 <img className='hindis_img' src={list.img} alt=''></img></a>
+                 <img className='hindis_img' src={list.img} alt='' id='img_size_mobile'></img></a>
             </div>
             )}
             </container>
@@ -24,7 +24,7 @@ function Hindimovie() {
          {Two.map((list) => 
             <div className='hindis_list'>  
                 <a href={list.movie}>
-                 <img className='hindis_img' src={list.img} alt=''></img></a>
+                 <img className='hindis_img' src={list.img} alt='' id='img_size_mobile'></img></a>
             </div>
             )}
             </container>

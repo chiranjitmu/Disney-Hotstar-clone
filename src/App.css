@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 980px){
-    .App{
-        width: 48rem;
-    }
-}
 .App{
     overflow: hidden;
 }

@@ -13,7 +13,7 @@ function Kannadamovie() {
          {One.map((list) => 
             <div className='kannadas_list'>  
                 <a href={list.movie}>
-                 <img className='kannadas_img' src={list.img} alt=''></img></a>
+                 <img className='kannadas_img' src={list.img} alt='' id='img_size_mobile'></img></a>
             </div>
             )}
             </container>

@@ -16,7 +16,7 @@ function Movies() {
            {Hindi.map((list) => 
             <div className='hindi_list'>  
             <a href={list.movie}>
-             <img className='hindi_img' src={list.img} alt=''></img></a>
+             <img className='hindi_img' src={list.img} alt='' id='img_size_mobile'></img></a>
              </div> 
            )}
           <a href='/movies/hindi'>
@@ -29,7 +29,7 @@ function Movies() {
            {Kannada.map((list) => 
             <div className='kannada_list'>  
             <a href={list.movie}>
-             <img className='kannada_img' src={list.img} alt=''></img></a>
+             <img className='kannada_img' src={list.img} alt='' id='img_size_mobile'></img></a>
              </div> 
            )}
           <a href='/movies/kannada'>

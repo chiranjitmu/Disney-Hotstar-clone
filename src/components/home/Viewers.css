@@ -1,6 +1,10 @@
 @media only screen and (max-width: 980px){
-   .main_viewers{
-     display: none;
+    #view_mobile{
+        width: 10rem;
+    }
+    #main_viewers_mobile > container{
+     gap: 2.2rem;     
+     margin-left: 1.5rem;
     }
 }
 

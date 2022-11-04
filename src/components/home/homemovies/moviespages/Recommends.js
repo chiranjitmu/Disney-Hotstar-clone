@@ -15,7 +15,7 @@ function Recommends() {
          {One.map((list) => 
             <div className='movie_list'>  
                 <a href={list.movie}>
-                 <img className='img' src={list.img} alt=''></img></a>
+                 <img className='img' src={list.img} alt='' id='img_size_mobile'></img></a>
             </div>
             )}
             </container>
@@ -25,7 +25,7 @@ function Recommends() {
          {Two.map((list) => 
             <div className='movie_list'>  
                 <a href={list.movie}>
-                 <img className='img' src={list.img} alt=''></img></a>
+                 <img className='img' src={list.img} alt='' id='img_size_mobile'></img></a>
             </div>
             )}
             </container>
@@ -36,7 +36,7 @@ function Recommends() {
          {Three.map((list) => 
             <div className='movie_list'>  
                 <a href={list.movie}>
-                 <img className='img' src={list.img} alt=''></img></a>
+                 <img className='img' src={list.img} alt='' id='img_size_mobile'></img></a>
             </div>
             )}
             </container>

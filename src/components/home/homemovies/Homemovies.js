@@ -16,7 +16,7 @@ function Homemovies() {
            {Recommend.map((list) => 
             <div className='recommended_list'>  
             <a href={list.movie}>
-             <img className='recommended_img' src={list.img} alt=''></img></a>
+             <img className='recommended_img' src={list.img} alt=''  id='img_size_mobile'></img></a>
              </div> 
            )}
           <a href='./recommends'>
@@ -31,7 +31,7 @@ function Homemovies() {
            {Hindi.map((list) => 
             <div className='hindi_list'>  
             <a href={list.movie}>
-             <img className='hindi_img' src={list.img} alt=''></img></a>
+             <img className='hindi_img' src={list.img} alt='' id='img_size_mobile'></img></a>
              </div> 
            )}
           <a href='./hindi'>
@@ -46,7 +46,7 @@ function Homemovies() {
            {Kannada.map((list) => 
             <div className='kannada_list'>  
             <a href={list.movie}>
-             <img className='kannada_img' src={list.img} alt=''></img></a>
+             <img className='kannada_img' src={list.img} alt='' id='img_size_mobile'></img></a>
              </div> 
            )}
           <a href='./kannada'>
