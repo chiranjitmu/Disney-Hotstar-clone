@@ -41,6 +41,7 @@ import {
 //  ( components/home/homemovies/homemovies.js )
 // ( components/headermovies/MOVIES JS )
 // ( recommends   jsonfile  and also add to specific lang )
+// (searched.json also add the movie and name)
 
 
 function App() {

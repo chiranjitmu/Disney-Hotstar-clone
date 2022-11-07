@@ -3,6 +3,25 @@
     position: relative;
     right: 10rem;
   }
+
+  #cancle_search_mobile{
+    position: absolute;
+    right: 3%;
+    top: 0.9rem;
+    color: black;
+  }
+  
+    #img_searched_mobile{
+        width: 20rem;
+        height: 25rem;
+        margin-left: 12em;
+    }
+}
+
+.searched_item{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
 }
 
 .search__menu > input{
@@ -19,7 +38,12 @@
  border: transparent;
 }
 
-
+.searchcancle{
+  position: absolute;
+  right: 30%;
+  top: 9.1rem;
+  color: black;
+}
 
 .searchicon{
   display: flex;
@@ -33,5 +57,20 @@
 
 .searchicon :hover{
   color: aqua;
+}
+
+
+.searched_img{
+  width: 15rem;
+  height: 20rem;
+  border: 0.2rem solid rgba(249, 249, 249, 0.1);
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
 }
 
