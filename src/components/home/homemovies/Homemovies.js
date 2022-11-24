@@ -53,7 +53,6 @@ function Homemovies() {
             <AiOutlineArrowRight className='arrowright'/></a>
           </container>
 
-
      </div>
   
   )

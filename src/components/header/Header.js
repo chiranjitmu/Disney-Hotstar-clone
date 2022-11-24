@@ -1,9 +1,15 @@
 import React from 'react'
 import './Header.css'
+import LoginButton from '../auth/Login'
+import LogoutButton from '../auth/Logout'
 import { AiFillHome, AiOutlineSearch, AiOutlinePlus, AiFillStar } from 'react-icons/ai'
 import { RiMovie2Fill, RiGitRepositoryPrivateLine } from 'react-icons/ri'
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 function Header() {
+
+     const { isAuthenticated, user } = useAuth0();
   return (
      <div className='main_header'>
     <div className='header'>
@@ -11,8 +17,7 @@ function Header() {
             
      <a href='/'> <img src="Disneyplus.webp" alt=""></img></a> 
      <span className='hotstar_logo_name'><a href='/' className='hotstar_logo_tag'>hotstar</a></span>
-     <span className='subscribe_button'>SUBSCRIBE</span>
-
+     {isAuthenticated ? <LogoutButton /> : <LoginButton />}
 
           <div className='header__home'>
                  <a href='/' className='home_icon'>
@@ -55,13 +60,15 @@ function Header() {
                <a href='/'>
                <button className='header_buttons'>SERIES</button></a>
           </div>
-          <div className='header__user'>
-               <img src='images.jpg' alt=''className='user_img'></img>
-               <span className='user_name'>DARKSOUL</span>
-          </div>  
 
-           </div>
-         
+        {isAuthenticated &&(
+         <div className='header__user'>
+         <img src={user.picture} alt='' className='user_img'/>
+         <h2 className='user_name'> {user.nickname}</h2>
+         </div>
+         )}
+   
+     </div>
    </div>
   )
 }

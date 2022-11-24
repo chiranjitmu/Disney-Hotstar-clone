@@ -1,4 +1,6 @@
 import './App.css';
+import React from 'react'
+import { useAuth0 } from "@auth0/auth0-react";
 import Header from './components/header/Header';
 import Home from './components/headerhome/Home';
 import Search from './components/headersearch/Search';
@@ -45,11 +47,17 @@ import {
 
 
 function App() {
+
+  const { isAuthenticated } = useAuth0();
+
   return (
       <div className='App'>
       <BrowserRouter>
         <Header />
+
+        { isAuthenticated ?
         <Routes>
+        <Route path='/' element={<Home/>}/> 
         <Route path='/movies/radheshyam' element={<Radheshyam/>}/>
         <Route path='/movies/james' element={<James/>}/>
         <Route path='/movies/kantara' element={<Kantara/>}/>
@@ -61,12 +69,6 @@ function App() {
         <Route path='/movies/rrr' element={<RRR/>}/>
         <Route path='/movies/beast' element={<Beast/>}/>
         <Route path='/movies/bhoolbhulaiyaa2' element={<Bhoolbhulaiyaa2/>}/>
-
-
-
-
-
-          <Route path='/' element={<Home/>}/>
           <Route path='/allmovies' element={<Movies/>}/>
           <Route path='/searchmovies' element={<Search/>}/>
           <Route path='/recommends' element={<Recommends/>}/>
@@ -75,6 +77,11 @@ function App() {
           <Route path='/movies/hindi' element={<Hindimovie/>}/> 
           <Route path='/movies/kannada' element={<Kannadamovie/>}/> 
         </Routes>
+        :
+        <div className='not_logged' id='not_logged_mobile'>
+          Please Subscribe..
+          </div>
+        }
        </BrowserRouter>
     </div>
   )

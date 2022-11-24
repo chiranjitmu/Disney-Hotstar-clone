@@ -123,22 +123,19 @@
 .header__user{
     display: flex;
     align-items: center;
-    padding-left: 7rem;
+    padding-left: 1rem;
 }
 
 .user_img{
-    margin-left: 1rem;
+    margin-left: 0.7rem;
     width: 2rem;
     border-radius: 99%;
 }
 
 .user_name{
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     font-size: 1.3rem;
+    color: aqua;
 }
 
-.user_name:hover{
-    color: aqua;
-    cursor: pointer;
-}
 
