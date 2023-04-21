@@ -30,6 +30,7 @@ function Search() {
 
 
   return (
+
     <div className='searching'>    
       <div className='search__menu'>
         <input placeholder="search movies.." type="text" value={query} onChange={searched}/>
@@ -52,9 +53,10 @@ function Search() {
              <img className='searched_img' src={list.img} alt=''  id='img_searched_mobile'></img></a>
              </div> 
            ) } 
+          
           </ul>
           }
-          
+         
    
       <Recommended />
     </div>

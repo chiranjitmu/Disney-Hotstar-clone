@@ -8,7 +8,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 
 function Header() {
-
+     
      const { isAuthenticated, user } = useAuth0();
   return (
      <div className='main_header'>
