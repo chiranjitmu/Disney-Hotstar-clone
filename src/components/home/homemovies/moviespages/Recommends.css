@@ -1,0 +1,36 @@
+.Recommend_word{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+.Recommend_word:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.img{
+    width: 15rem;
+    height: 20rem;
+    border: 0.2rem solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.movie_list{
+    display: flex;
+    flex: row;
+}
+
+.recommend_only{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+
+.recommend_only::-webkit-scrollbar{
+    display: none;
+ }

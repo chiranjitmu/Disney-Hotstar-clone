@@ -1,0 +1,37 @@
+.kannadas_word{
+    margin-left: 1rem;
+    margin-top: 1rem;
+ }
+ 
+ 
+ .kannadas_word:hover{
+    color: aqua;
+    cursor: pointer;
+ }
+ 
+ .kannadas_img{
+    width: 15rem;
+    height: 20rem;
+    border: 0.2rem solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+ }
+ .kannadas_list{
+    display: flex;
+    flex: row;
+ }
+ 
+ .kannadas_only{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+ }
+ 
+ 
+.kannada_only::-webkit-scrollbar{
+   display: none;
+}
+ 

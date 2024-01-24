@@ -1,0 +1,22 @@
+[
+    {
+         "movie": "/movies/rrr",
+         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/RRR_Poster.jpg/220px-RRR_Poster.jpg"
+    },
+    {
+         "movie": "/movies/runway34",
+         "img": "https://upload.wikimedia.org/wikipedia/en/7/79/Runway_34_poster.jpg"
+    },
+    {
+          "movie": "/movies/beast",
+         "img": "https://www.cinejosh.com/reviewsimg/big/beast-review_b_1304220116.jpg"   
+    },
+    {
+        "movie": "/movies/kgf2",
+        "img":   "https://upload.wikimedia.org/wikipedia/en/d/d0/K.G.F_Chapter_2.jpg"
+    },
+    {
+        "movie": "/movies/radheshyam",
+        "img": "https://m.media-amazon.com/images/M/MV5BZDQ5YjAxMmYtOGM3Zi00MWU2LWJmOTMtZjhhYjkyNGQ1NjE3XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+   }
+]  

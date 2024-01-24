@@ -1,0 +1,141 @@
+@media only screen and (max-width: 980px){
+    .header_buttons{
+        display: none;
+    }
+    .user_img{
+        display: none;
+    }
+    .user_name{
+        display: none;
+    }
+    .home_icon{
+        font-size: 2rem;
+        position: relative;
+        left: 5rem;
+    }
+    .watchlist_icon{
+        display: none;
+    }
+    .originals_icon{
+        display: none;
+    }
+    .movies_icon{
+        font-size: 2rem;
+        position: relative;
+        left: 5rem;
+    }
+    .series_icon{
+        display: none;
+    }
+    .search_icon{
+        font-size: 2rem;
+        position: relative;
+        left: 30rem;
+    }
+
+}
+
+
+
+.header{
+    background: hsl(0, 0%, 5%);
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.header > a > img{
+    height: 3rem;
+    margin: 2rem;
+}
+
+.hotstar_logo_name{
+ font-size: 1.3rem;
+ position: relative;
+ right: 2.5rem;
+ top: 0.4rem;
+}
+
+.hotstar_logo_tag{
+    text-decoration: black;
+}
+
+.subscribe_button{
+    background-color: blue;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    border-radius: 0.3rem;
+    position: relative;
+    right: 2.3rem;
+    top: 0.4rem;
+   }
+
+.header_buttons{
+    background-color: #0e0e0e;
+    border: transparent;
+    font-size: 1rem;
+}
+
+.header_buttons:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+
+.header__home{
+    align-items: center;
+    display: flex;
+}
+
+.header__search{
+    align-items: center;
+    display: flex;
+}
+
+.header__watchlist{
+    align-items: center;
+    display: flex;
+}
+
+.header__originals{
+    align-items: center;
+    display: flex;
+}
+
+.header__movies{
+    align-items: center;
+    display: flex;
+}
+
+.header__series{
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+.header__user{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.user_img{
+    margin-left: 0.7rem;
+    width: 2rem;
+    border-radius: 99%;
+}
+
+.user_name{
+    padding-left: 0.5rem;
+    font-size: 1.3rem;
+    color: aqua;
+}
+
+

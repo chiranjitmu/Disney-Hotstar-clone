@@ -1,0 +1,57 @@
+[
+    {
+         "movie": "/movies/radheshyam",
+         "first_name": "radheshyam",
+         "img": "https://m.media-amazon.com/images/M/MV5BZDQ5YjAxMmYtOGM3Zi00MWU2LWJmOTMtZjhhYjkyNGQ1NjE3XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+    },
+    {
+         "movie": "/movies/james",
+         "first_name": "james",
+         "img": "https://st1.bollywoodlife.com/wp-content/uploads/2022/03/Puneeth-Rajkumar-James.jpg"
+    },
+    {
+          "movie": "/movies/eightthree",
+          "first_name": "eightthree",
+         "img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/83-et00062705-25-12-2021-02-47-08.jpg"
+    },
+    {
+        "movie": "/movies/bachchhanpaandey",
+        "first_name": "bachchhanpaandey",
+        "img":   "https://m.media-amazon.com/images/M/MV5BOWE5ZjljZDEtYTZmNy00MGVlLWJjNjEtMWUwMzUyMDc5NTA3XkEyXkFqcGdeQXVyODgzMDMwODI@._V1_.jpg"
+    },
+    {
+        "movie": "/movies/pushpa",
+        "first_name": "pushpa",
+        "img":   "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/pushpa--the-rise-et00129538-08-12-2021-01-21-46.jpg"
+    },
+    {
+        "movie": "/movies/kantara",
+        "first_name": "kantara",
+        "img": "https://m.economictimes.com/thumb/msid-94921873,width-1200,height-900,resizemode-4,imgsize-48758/kantara-lead.jpg"
+    },
+        {
+             "movie": "/movies/rrr",
+             "first_name": "rrr",
+             "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/RRR_Poster.jpg/220px-RRR_Poster.jpg"
+        },
+        {
+             "movie": "/movies/runway34",
+             "first_name": "runway34",
+             "img": "https://upload.wikimedia.org/wikipedia/en/7/79/Runway_34_poster.jpg"
+        },
+        {
+              "movie": "/movies/beast",
+              "first_name": "beast",
+             "img": "https://www.cinejosh.com/reviewsimg/big/beast-review_b_1304220116.jpg"   
+        },
+        {
+            "movie": "/movies/kgf2",
+            "first_name": "kgf2",
+            "img":   "https://upload.wikimedia.org/wikipedia/en/d/d0/K.G.F_Chapter_2.jpg"
+        },
+        {
+         "movie": "/movies/bhoolbhulaiyaa2",
+         "first_name": "bhoolbhulaiyaa2",
+         "img":   "https://upload.wikimedia.org/wikipedia/en/2/23/Bhool_Bhulaiyaa_2_film_poster.jpg"
+        }
+]

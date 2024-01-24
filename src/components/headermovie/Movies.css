@@ -1,0 +1,81 @@
+.movies > h1{
+     display: grid;
+     place-items: center;
+     margin-top: 10px;
+}
+
+.movies > h1:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+/* hindi */
+
+
+
+.hindi_word{
+    margin-left: 1rem;
+    margin-top: 1rem;
+ }
+ 
+ 
+ .hindi_word:hover{
+    color: aqua;
+    cursor: pointer;
+ }
+ 
+ .hindi_img{
+    width: 15rem;
+    height: 20rem;
+    border: 0.2rem solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+ }
+ .hindi_list{
+    display: flex;
+    flex: row;
+ }
+ 
+ .hindi_only{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+ }
+ 
+ /* kannada */
+
+.kannada_word{
+    margin-left: 1rem;
+    margin-top: 1rem;
+ }
+ 
+ 
+ .kannada_word:hover{
+    color: aqua;
+    cursor: pointer;
+ }
+ 
+ .kannada_img{
+    width: 15rem;
+    height: 20rem;
+    border: 0.2rem solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+ }
+ .kannada_list{
+    display: flex;
+    flex: row;
+ }
+ 
+ .kannada_only{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+ }
+ 

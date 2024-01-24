@@ -1,0 +1,147 @@
+/* I have created this for global css  */
+@media only screen and (max-width: 980px){
+    #img_size_mobile{
+        width: 20rem;
+        height: 25rem;
+    }
+}
+
+.movies_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.arrowright{
+    height: 2rem;
+    width: 2rem;
+    border: 0.3rem solid aqua;
+    margin-top: 8.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 99px;
+} 
+
+.arrowright :hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* recommended */
+.recommended_only{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.recommended_only::-webkit-scrollbar{
+    display: none;
+}
+
+.Recommended_word{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+.Recommended_word:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.recommended_img{
+    width: 15rem;
+    height: 20rem;
+    border: 0.2rem solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.recommended_list{
+    display: flex;
+    flex: row;
+}
+
+/* hindi */
+
+.hindi_only{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.hindi_only::-webkit-scrollbar{
+    display: none;
+}
+
+.hindi_word{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+.hindi_word:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.hindi_img{
+    width: 15rem;
+    height: 20rem;
+    border: 0.2rem solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.hindi_list{
+    display: flex;
+    flex: row;
+}
+
+/* kannada */
+
+.kannada_only{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.kannada_only::-webkit-scrollbar{
+    display: none;
+}
+
+.kannada_word{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+.kannada_word:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.kannada_img{
+    width: 15rem;
+    height: 20rem;
+    border: 0.2rem solid rgba(249, 249, 249, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.kannada_list{
+    display: flex;
+    flex: row;
+}
+
+
+

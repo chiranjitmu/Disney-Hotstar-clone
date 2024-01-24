@@ -1,0 +1,22 @@
+[
+    {
+         "movie": "/movies/rrr",
+         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/RRR_Poster.jpg/220px-RRR_Poster.jpg"
+    },
+    {
+         "movie": "/movies/runway34",
+         "img": "https://upload.wikimedia.org/wikipedia/en/7/79/Runway_34_poster.jpg"
+    },
+    {
+          "movie": "/movies/beast",
+         "img": "https://www.cinejosh.com/reviewsimg/big/beast-review_b_1304220116.jpg"   
+    },
+    {
+        "movie": "/movies/kgf2",
+        "img":   "https://upload.wikimedia.org/wikipedia/en/d/d0/K.G.F_Chapter_2.jpg"
+    },
+    {
+     "movie": "/movies/bhoolbhulaiyaa2",
+     "img":   "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/pushpa--the-rise-et00129538-08-12-2021-01-21-46.jpg"
+    }
+]
