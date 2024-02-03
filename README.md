@@ -24,7 +24,7 @@ npm install
 ### Run
 
 ```bash
-npm run dev
+npm start
 ```
 
 Open the app in your web browser to experience the Disney-Hotstar-clone app.
