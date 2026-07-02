@@ -27,7 +27,26 @@ npm install
 npm start
 ```
 
+Or:
+
+```bash
+npm run dev
+```
+
 Open the app in your web browser to experience the Disney-Hotstar-clone app.
+
+### Environment variables
+
+Create a `.env` file in the project root (same as before):
+
+```
+REACT_APP_DOMAIN=your-auth0-domain
+REACT_APP_CLIENT_ID=your-auth0-client-id
+```
+
+### Deploy (Netlify)
+
+Build output goes to `dist/` (not `build/`). If you deploy manually, set the publish directory to `dist`. This repo includes a `netlify.toml` that configures that automatically.
 
 ### Acknowledgments
 
